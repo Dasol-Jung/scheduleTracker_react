@@ -1,8 +1,10 @@
 import React from 'react';
+import ScheduleRow from './ScheduleRow';
 
 class ScheduleBoard extends React.Component{ 
     
     render(){
+
         return(
             <div>
                 <table>
@@ -25,7 +27,7 @@ class ScheduleBoard extends React.Component{
                         </tr> 
                     </thead>
                     <tbody>
-
+                        <ScheduleRow/>
                     </tbody>
                 </table>
             </div>
